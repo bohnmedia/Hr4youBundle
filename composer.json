@@ -1,0 +1,34 @@
+{
+	"name":"bohnmedia/hr4you-bundle",
+	"description":"Import and display jobs from hr4you",
+	"keywords":["contao","hr4you","jobs"],
+	"type":"contao-bundle",
+	"homepage":"https://github.com/bohnmedia/hr4you-bundle",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"bohn.media",
+			"homepage":"https://bohn.media",
+			"role":"Developer"
+		}
+	],
+	"require": {
+		"contao/core-bundle":"~4.4"
+	},
+	"conflict": {
+		"contao/core": "*",
+		"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+	"extra": {
+		"contao-manager-plugin": "BohnMedia\\Hr4youBundle\\ContaoManager\\Plugin"
+	},
+	"autoload":{
+		"psr-4": {
+			"BohnMedia\\Hr4youBundle\\": "src/"
+		}
+	},
+    "support": {
+        "issues": "https://github.com/bohnmedia/hr4you-bundle/issues",
+        "source": "https://github.com/bohnmedia/hr4you-bundle"
+    }
+}

@@ -1,0 +1,6 @@
+<a href="<?= $this->href ?>">
+	<div class="layout_all block<?= $this->class ?>">
+		<h2><?= $this->jobTitle ?></h2>
+		<div class="jobWorkplace"><?= $this->jobWorkplace ?></div>
+	</div>
+</a>

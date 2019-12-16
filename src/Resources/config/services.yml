@@ -1,0 +1,17 @@
+services:
+    _instanceof:
+        Contao\CoreBundle\Framework\FrameworkAwareInterface:
+            calls:
+                - ["setFramework", ["@contao.framework"]]
+
+        Symfony\Component\DependencyInjection\ContainerAwareInterface:
+            calls:
+                - ["setContainer", ["@service_container"]]
+
+    bohnmedia.hr4you_bundle.jobs:
+        class: BohnMedia\Hr4you\Library\Jobs
+        public: true
+
+    bohnmedia.hr4you_bundle.feeds:
+        class: BohnMedia\Hr4you\Library\Feeds
+        public: true
