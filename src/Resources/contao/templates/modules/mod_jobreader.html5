@@ -1,1 +1,4 @@
-XXX
+<?php $this->extend('block_searchable'); ?>
+<?php $this->block('content'); ?>
+<?= $this->jobs ?>
+<?php $this->endblock(); ?>
