@@ -13,7 +13,8 @@
 		}
 	],
 	"require": {
-		"contao/core-bundle":"~4.4"
+		"contao/core-bundle":"~4.4",
+		"patchwork/utf8": "^1.2"
 	},
 	"conflict": {
 		"contao/core": "*",
@@ -28,7 +29,7 @@
 		}
 	},
     "support": {
-        "issues": "https://github.com/bohnmedia/hr4you-bundle/issues",
-        "source": "https://github.com/bohnmedia/hr4you-bundle"
+        "issues": "https://github.com/bohnmedia/Hr4youBundle/issues",
+        "source": "https://github.com/bohnmedia/Hr4youBundle"
     }
 }
