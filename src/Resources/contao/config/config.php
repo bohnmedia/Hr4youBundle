@@ -22,5 +22,5 @@ array_insert($GLOBALS['FE_MOD'], 2, array
 $GLOBALS['TL_CRON']['minutely'][] = ['BohnMedia\Hr4youBundle\Model\FeedsModel', 'updateAll'];
 
 if ('BE' === TL_MODE) {
-    $GLOBALS['TL_CSS'][] = 'system/modules/hr4you/assets/css/backend.css|static';
+    $GLOBALS['TL_CSS'][] = 'bundles/hr4you/css/backend.css|static';
 }
